@@ -8,6 +8,9 @@
         "ghcr.io/devcontainers/features/docker-in-docker:2": {
             "version": "latest",
             "enableNonRootDocker": "true"
+        },
+        "ghcr.io/devcontainers/features/sshd:1": {
+            "version": "latest"
         }
     },
     "postCreateCommand": "pip3 install --user -r requirements.txt",
